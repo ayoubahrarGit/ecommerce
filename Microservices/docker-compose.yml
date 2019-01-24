@@ -1,0 +1,5 @@
+version: "3"
+services:
+  produits:
+    build: ./microservice-produits
+    ports: "9001:9001"

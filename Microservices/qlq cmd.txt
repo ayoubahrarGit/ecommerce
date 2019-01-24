@@ -1,0 +1,2 @@
+ docker run -t -p 900.:900. --network="ecom" --name ...-container ...-image
+ docker network inspect  ecom
